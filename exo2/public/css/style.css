@@ -3,3 +3,13 @@ td{
     padding: 10px;
 }
 
+tr:nth-child(odd) 
+{background: rgb(22, 31, 164)}
+
+tr:last-child{
+    color: yellow;
+}
+
+td:first-child::first-letter{
+    font-size: 30px;
+}
