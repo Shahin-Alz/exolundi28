@@ -3,6 +3,13 @@ section{
     border-bottom: black solid 1px;
 }
 
-h4:first-child{
+section:first-child{
     background-color: blue;
+    color: black;
 }
+
+section:nth-child(2){
+    border-bottom: red solid 5px;
+    
+}
+
