@@ -13,7 +13,11 @@ section:nth-child(2){
     
 }
 
-section:nth-child(3) h3,li{
+ section:nth-child(3) h3{
+    color: red;
+}
+
+section:nth-child(3) ul{
     color: red;
 }
 
